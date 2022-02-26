@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/be/74/34/be74342377d62662d7dbe7668c1e46e0.png");
+  background-size: cover;
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 70vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: yellow solid 2px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px rgba(83, 5, 5, 0.8);
+}
+
+h1 {
+  color: rgba(83, 5, 5, 0.8);
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: rgb(231, 231, 182);
+  margin-bottom: 15px;
+}
+
+input {
+  border: none;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px rgba(83, 5, 5, 0.8);
+}
+
+button {
+  font-size: 1.8em;
+  border: none;
+  padding: 6px;
+  margin: 0.2em;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(223, 202, 176);
+}
+
+@media (max-width: 600px) {
+  input {
+    border: solid 1px;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px rgba(83, 5, 5, 0.8);
+  }
+}
